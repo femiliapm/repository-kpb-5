@@ -1,0 +1,55 @@
+/* universal selector */
+* {
+  /* reset margin & padding */
+  margin: 0;
+  padding: 0;
+}
+
+.paragraf-class {
+  color: navy;
+  padding: 120px;
+}
+
+/* 
+specificity css (0,0,0,0)
+tag selector => (0,0,0,1) => 0001
+class selector => (0,0,1,0) = 0010
+id selector => (0,1,0,0) => 0100
+*/
+
+/* 101 */
+/* h3#heading-tiga-id {
+  color: aqua;
+} */
+
+/* 001 */
+h3 {
+  color: red;
+}
+
+/* 010 */
+.heading-tiga {
+  color: green;
+}
+
+/* 100 */
+/* #heading-tiga-id {
+  color: blue;
+} */
+
+/* 011 */
+h3.heading-tiga {
+  color: blueviolet;
+}
+
+/* 022 */
+div.wrap-h3 h3.heading-tiga {
+  color: brown;
+}
+
+.wrap-h3 {
+  border: 2px solid gold;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10%;
+}

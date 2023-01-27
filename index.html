@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="../css/style.css">
 
   <style>
+    /* @import url(../css/style.css); */
     /* tag selector */
     h1 {
-      background-color: aliceblue;
+      background-color: lightblue;
       color: violet;
-      margin: 30px;
+      /* margin: 30px; */
+      padding: 50px;
     }
 
     /* class selector */
@@ -25,6 +27,10 @@
     #paragraf01 {
       font-weight: bold;
     }
+
+    /* .paragraf-class {
+      color: orange;
+    } */
   </style>
 </head>
 
@@ -32,7 +38,11 @@
   <!-- heading h1 - h6 -->
   <h1>Ini heading satu</h1>
   <h2>Ini heading dua</h2>
-  <h3>Ini heading tiga</h3>
+  <div class="wrap-h3">
+    <h3 class="heading-tiga" id="heading-tiga-id">Ini heading tiga</h3>
+  </div>
+
+  <a href="./position.html">Go to Latihan Position</a>
 
   <!-- paragraf -->
   <p id="paragraf01" class="paragraf-class">
@@ -42,6 +52,7 @@
   </p>
 
   <p id="paragraf02" class="paragraf-class" style="color: #a62b2b;">
+    <!-- <p id="paragraf02" class="paragraf-class"> -->
     ini paragraf yang kedua. <br />
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi tempora dolorem. Optio hic delectus eaque
     officiis voluptatem molestiae, ipsa beatae ea at facilis ipsam placeat! Dicta expedita facilis ipsa maiores? Odio
