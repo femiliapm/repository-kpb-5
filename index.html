@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>Wazwez | Dashboard</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">waz<span>wez</span>.</div>
+      <nav class="nav-container">
+        <ul>
+          <li>
+            <img src="./asset/svg/nav-notification.svg" alt="notofication">
+          </li>
+          <li class="avatar-container">
+            <img class="avatar" src="https://i.pravatar.cc/100" alt="avatar">
+          </li>
+          <li class="username">krozeo jupiter</li>
+          <li>
+            <img src="./asset/svg/dropdown.svg" alt="dropdown">
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="card-content">
+        <div>
+          <div class="card-header">
+            <div class="left">
+              <h2 class="category">my tasks</h2>
+              <h1 class="title">to do list</h1>
+              <p class="sub-title">Buat list tugas harian saya</p>
+            </div>
+            <div class="right">
+              <button class="btn-add-task">
+                <img src="./asset/svg/plus.svg" alt="icon-plus">
+                <span>Tambah tugas</span>
+              </button>
+            </div>
+          </div>
+          <div class="card-sub-header">
+            <div class="left">sort by</div>
+            <div class="right">
+              <select name="sorted" id="sorted" class="sort-by">
+                <option value="date">by tanggal</option>
+                <option value="time">by time</option>
+                <option value="newest">terbaru</option>
+              </select>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="task-list">
+              <div class="left">
+                <input type="checkbox" name="product-design" id="product-design">
+                <div class="detail">
+                  <div class="info">
+                    <label for="product-design" class="task-name">product design</label>
+                    <span class="task-deadline">Hari ini</span>
+                  </div>
+                  <div class="task-desc">Tugas untuk design team</div>
+                </div>
+              </div>
+              <div class="right">
+                <img src="./asset/svg/dropdown.svg" alt="icon-dropdown">
+              </div>
+            </div>
+            <div class="task-list">
+              <div class="left">
+                <input type="checkbox" name="product-design" id="product-design">
+                <div class="detail">
+                  <div class="info">
+                    <label for="product-design" class="task-name">development</label>
+                    <span class="task-deadline">15 Juni 2022</span>
+                  </div>
+                  <div class="task-desc"></div>
+                </div>
+              </div>
+              <div class="right">
+                <img src="./asset/svg/dropdown.svg" alt="icon-dropdown">
+              </div>
+            </div>
+            <div class="task-list">
+              <div class="left">
+                <input type="checkbox" name="product-design" id="product-design">
+                <div class="detail">
+                  <div class="info">
+                    <label for="product-design" class="task-name">launching Wazwez website</label>
+                    <span class="task-deadline">20 juni 2022</span>
+                  </div>
+                  <div class="task-desc"></div>
+                </div>
+              </div>
+              <div class="right">
+                <img src="./asset/svg/dropdown.svg" alt="icon-dropdown">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-done">
+          <img src="./asset/svg/arrow-right.svg" alt="arrow-right">
+          Terselesaikan (3 tugas)
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
