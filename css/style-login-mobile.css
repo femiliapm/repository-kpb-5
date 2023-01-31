@@ -1,0 +1,41 @@
+/* mobile */
+@media screen and (max-width: 375px) {
+  .wrap-login .left {
+    display: none;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 376px) and (max-width: 900px) {
+  .wrap-login .right {
+    display: none;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrap-login .left .form-login {
+    display: block;
+    width: 40%;
+    height: 40%;
+    box-shadow: -1px -1px 10px 7px #9d9a9a;
+    border-radius: 8px;
+  }
+
+  .form-login .btn-login {
+    text-align: center;
+    margin-top: 4vh;
+  }
+
+  .form-login h1 {
+    font-size: 4vw;
+  }
+
+  .wrap-login .left {
+    width: 100%;
+  }
+}

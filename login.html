@@ -6,6 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style-login.css">
+  <link rel="stylesheet" href="./css/style-login-mobile.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <title>Login Page</title>
 </head>
 
@@ -13,6 +18,21 @@
   <div class="wrap-login">
     <section class="left">
       <h1>Welcome to Library!</h1>
+      <form class="form-login">
+        <h1>Form Login</h1>
+        <div class="input-group">
+          <label class="label-name" for="username">Username:</label>
+          <input type="text" placeholder="Type your username">
+        </div>
+        <div class="input-group">
+          <label class="label-name" for="password">Password:</label>
+          <input type="password" placeholder="Type your password">
+        </div>
+        <div class="btn-login">
+          <a href="./index.html">Login</a>
+        </div>
+      </form>
+
     </section>
     <section class="right">
       <form class="form-login">
@@ -25,10 +45,10 @@
           <label class="label-name" for="password">Password:</label>
           <input type="password" placeholder="Type your password">
         </div>
+        <div class="btn-login">
+          <a href="./index.html">Login</a>
+        </div>
       </form>
-      <div class="btn-login">
-        <a href="./index.html">Login</a>
-      </div>
     </section>
   </div>
 </body>
