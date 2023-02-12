@@ -247,10 +247,10 @@ select:focus {
   position: absolute;
   content: "";
   display: block;
-  top: 3px;
-  left: 8px;
-  width: 8px;
-  height: 14px;
+  top: 14%;
+  left: 32%;
+  width: 19%;
+  height: 38%;
   border-style: solid;
   border-color: white;
   border-width: 0 2px 2px 0;
