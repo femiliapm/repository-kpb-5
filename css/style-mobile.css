@@ -1,0 +1,30 @@
+@media screen and (max-width: 429px) {
+  * {
+  }
+
+  /* Icon */
+  .ic-bell-notif {
+    width: 3.5vw;
+  }
+
+  .ic-dropdown {
+    width: 1.5vw;
+  }
+
+  .content .card-content {
+    width: 90vw;
+  }
+
+  .header .logo,
+  .logo span {
+    font-size: 4.5vw !important;
+  }
+
+  ul li {
+    font-size: 3vw !important;
+  }
+
+  ul .avatar-container {
+    padding: 1px !important;
+  }
+}

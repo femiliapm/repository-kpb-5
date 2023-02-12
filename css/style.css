@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-size: 1.56vw;
+}
+
+body {
+  font-size: 1.56vw;
+  background-color: #f5f5f5;
 }
 
 button,
@@ -19,12 +25,27 @@ select {
   /* background: url(../asset/svg/dropdown-primary.svg) no-repeat calc(100% - 14px); */
   background: url(../asset/svg/dropdown-primary.svg);
   background-repeat: no-repeat;
-  background-position-x: calc(100% - 14px);
+  /* background-position-x: calc(100% - 14px); */
+  background-position-x: calc(100% - 1vw);
   background-position-y: center;
+  background-size: 1.1vw;
 }
 
 select:focus {
   outline: none;
+}
+
+/* Icon */
+.ic-bell-notif {
+  width: 2.35vw;
+}
+
+.ic-dropdown {
+  width: 1.1vw;
+}
+
+.ic-plus {
+  width: 2.1vw;
 }
 
 .container {
@@ -35,14 +56,16 @@ select:focus {
 
 /* Styling Header */
 .container .header {
-  padding: 50px 80px;
+  /* padding: 50px 80px; */
+  padding: 5vw 8vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header .logo {
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 2.73vw;
   font-weight: 600;
   line-height: 100%;
   letter-spacing: 0.04em;
@@ -50,6 +73,7 @@ select:focus {
 }
 
 .logo span {
+  font-size: 2.73vw;
   color: #ff5f26;
 }
 
@@ -62,7 +86,8 @@ select:focus {
   display: flex;
   margin-left: 1rem;
   font-weight: 500;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.75vw;
   line-height: 26px;
   color: #293038;
 }
@@ -74,8 +99,10 @@ select:focus {
 }
 
 .nav-container ul li.avatar-container .avatar {
-  width: 36px;
-  height: 36px;
+  /* width: 36px; */
+  width: 3.5vw;
+  /* height: 36px; */
+  height: 3.5vw;
   border-radius: 100%;
 }
 
@@ -95,7 +122,8 @@ select:focus {
   border-radius: 12px;
   padding: 40px;
   margin-bottom: 40px;
-  width: 56%;
+  /* width: 56%; */
+  width: 56vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -112,7 +140,7 @@ select:focus {
 .left .category {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 100%;
   letter-spacing: 1px;
   color: #ff5f26;
@@ -121,7 +149,8 @@ select:focus {
 .left .title {
   text-transform: capitalize;
   font-weight: 500;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 2.35vw;
   line-height: 100%;
   color: #293038;
   margin: 10px 0 12px;
@@ -129,7 +158,7 @@ select:focus {
 
 .left .sub-title {
   font-weight: 400;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 100%;
   color: #7a7f83;
 }
@@ -137,7 +166,8 @@ select:focus {
 .right .btn-add-task {
   display: flex;
   align-items: center;
-  padding: 12px 15px;
+  /* padding: 12px 15px; */
+  padding: 1.2vw 1.5vw;
   background: #ff5f26;
   border-radius: 60px;
 }
@@ -149,7 +179,7 @@ select:focus {
 .btn-add-task span {
   margin-left: 10px;
   font-weight: 600;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 24px;
   color: #ffffff;
 }
@@ -165,20 +195,26 @@ select:focus {
 .card-sub-header .left {
   color: #7a7f83;
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 100%;
   text-transform: capitalize;
 }
 
 .right .sort-by {
-  padding: 10px 32px 10px 14px;
+  /* padding: 10px 32px 10px 14px; */
+  padding: 1vw 3vw 1vw 1.4vw;
   font-weight: 600;
-  font-size: 14px;
   line-height: 24px;
   color: #ff5f26;
   border: 1px solid #ff5f26;
   border-radius: 50px;
   text-transform: capitalize;
+}
+
+.sort-by,
+.sort-by option {
+  /* font-size: 14px; */
+  font-size: 1.35vw !important;
 }
 
 /* Card Main */
@@ -199,8 +235,10 @@ select:focus {
   margin-right: 14px;
   border-radius: 100%;
   border: 1px solid #ccced2;
-  width: 28px;
-  height: 28px;
+  /* width: 28px; */
+  width: 2.5vw;
+  /* height: 28px; */
+  height: 2.5vw;
   cursor: pointer;
   transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
 }
@@ -237,7 +275,8 @@ select:focus {
 
 .info .task-name {
   font-weight: 500;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.75vw;
   line-height: 100%;
   text-transform: capitalize;
   color: #293038;
@@ -246,7 +285,8 @@ select:focus {
 
 .info .task-deadline {
   font-weight: 500;
-  font-size: 12px;
+  /* font-size: 12px; */
+  font-size: 1.2vw;
   line-height: 100%;
   color: #ff5f26;
   padding: 8px 12px;
@@ -258,7 +298,8 @@ select:focus {
 .detail .task-desc {
   color: #7a7f83;
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 1.35vw;
   line-height: 100%;
   margin-bottom: 16px;
 }
@@ -268,7 +309,8 @@ select:focus {
   padding-top: 30px;
   margin-top: 30px;
   font-weight: 500;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.75vw;
   line-height: 100%;
   color: #7a7f83;
 }
