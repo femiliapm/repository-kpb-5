@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan DOM</title>
+</head>
+
+<body>
+  <h1>Latihan DOM</h1>
+  <p id="paragraf">ini merupakan paragraf</p>
+  <button id="btn-click-me" onclick="hello()">Click Me!</button>
+  <button id="btn-other">Another Button!</button>
+
+  <button id="btn-add">Add List</button>
+  <div id="input-list">
+    <label for="name">list to do</label>
+    <input type="text" id="input-item">
+    <button id="save">Simpan</button>
+  </div>
+  <div>
+    <ul id="list-todo">
+      <li>
+        Makan
+      </li>
+    </ul>
+  </div>
+
+  <!-- External Script -->
+  <script src="./js/script.js"></script>
+
+  <!-- Internal Script -->
+  <!-- <script>
+    // Mengambil element yg mau dimanipulasi
+    const elementParagraf = document.getElementById("paragraf")
+    console.log(elementParagraf);
+    // Timeout
+    setTimeout(() => {
+      // Merubah isi content
+      elementParagraf.innerHTML = "TEXT UPDATED"
+      // elementParagraf.style.textTransform = "capitalize"
+    }, 5000); // ms
+
+    // Merubah styling
+    elementParagraf.style.fontSize = "30px";
+    elementParagraf.style.textTransform = "capitalize"
+
+    // React to event
+    function hello() {
+      alert("hello world!")
+    }
+
+    // Add eventlistener
+    const btnOther = document.getElementById("btn-other")
+    btnOther.addEventListener("click", function () {
+      alert("ini pesan dari button kedua")
+    })
+  </script> -->
+</body>
+
+</html>
